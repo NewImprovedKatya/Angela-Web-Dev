@@ -1,0 +1,143 @@
+
+body {
+    background-color: #f5efd0;
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    color: #c66d28;
+    margin:0;
+    background-image: url(./assets/subtle\ texture.png);
+    background-size: cover;
+}
+  .header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(./assets/subtle-texture3.png), linear-gradient(#ec982b , #ec982b , #ec982b , #f4bc2f );
+    background-size: 100%;
+
+  }
+  .what {
+    margin-top: 10%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .hello {
+    height:10vh;
+    margin-top: 10vh;
+  }
+  .tagline {
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .feature-title {
+    color: #f5efd0;
+  }
+  .projects {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    background: url(./assets/subtle\ texture.png), linear-gradient(#ec982b , #ec982b , #ec982b , #f4bc2f );
+  }
+  .feature {
+    display:grid;
+    grid-template-columns: 100%;
+    gap: 5%;
+    margin: 20% 5%;
+    padding: 0;
+    height: 100vh;
+  }
+  .card { 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    Background-color: #f5efd0;
+  }
+  .flow {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .My-Story {
+    margin-top: 10%;
+    padding: 5%;
+  }
+  .step {  
+    grid-column: span 3;
+  } 
+  .even1 {
+    grid-area: 2 / 3 / 2 /6
+  }
+  .even2 {
+    grid-area: 4 / 3 / 4 /6
+  }
+  .emphasis {
+    font-size:larger;
+    color: #f5efd0;
+  }
+  .workflow {
+    background: url(./assets/subtle\ texture.png), linear-gradient(#f5efd0, #f4bc2f);
+    margin-top: 5%;
+  }
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hire-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    Background: linear-gradient(#ec982b , #ec982b , #ec982b , #f4bc2f );
+    margin: 0;
+    border-radius: 10%;
+    padding: 5%;
+    min-width: max-content;
+    max-width: 50%;
+    margin: 5%;
+    color:white
+  }
+  .heading {
+    grid-column: span 3;
+  }
+  .sub {
+    font-size: 75%;
+}
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media (min-width: 751px) {
+    .get-in-touch {
+        display:flex;
+        flex-direction: row;
+    }
+    .width {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+
+    }
+    .flow {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+    }
+
+}
+@media (max-width: 750px) {
+    .hire-btn {
+        font-size: 0.75rem;
+    }
+}
